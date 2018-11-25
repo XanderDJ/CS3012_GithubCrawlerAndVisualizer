@@ -13,7 +13,6 @@ credentials.close()
 git = Github(user, Pass)
 users_checked = set()
 users_notChecked = set(["xanderdj"])
-users_notChecked = collection.find().
 start = time()
 while len(users_notChecked) != 0 and time() - start < 60*15 and len(users_notChecked) + len(users_checked) < 10000:
     print("you won't see this")
@@ -33,5 +32,5 @@ for name in users_checked:
     tempDic = {"name":name}
     names.append(tempDic)
 
-
+collection.insert_many(names)
 
