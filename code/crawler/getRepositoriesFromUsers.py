@@ -10,5 +10,4 @@ Pass = credentials.readline().rstrip()
 clientId = credentials.readline().rstrip()
 credentials.close()
 git = Github(user, Pass)
-docu = {"name": "test111"}
-names.insert(docu)
+print(names.estimated_document_count())
