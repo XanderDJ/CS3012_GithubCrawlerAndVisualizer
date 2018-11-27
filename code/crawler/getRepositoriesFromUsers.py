@@ -17,18 +17,24 @@ credentials.close()
 git = Github(user, Pass)
 repositoryNames = set()
 languageDictionary = {}
-totalQueries = nameDB.estimated_document_count()
+totalQueries = 1000
 x = 0
-for name in nameDB.find():
+for name in nameDB.find().limit(totalQueries):
     x += 1
     gitUser = git.get_user(name["name"])
     sleep(RATE)
     repos = gitUser.get_repos()
     sleep(RATE)
     for repo in repos:
-        repository_name = repo.name
+        repository_name = name["name"] + "/" + repo.name
         repositoryNames.add(repository_name)
-    print(str(x / totalQueries) + " % of the way there for repositories")
+    print(str(round(x * 100 / totalQueries, 2)) + " % of the way there for repositories")
+
+list_repositories = []
+for name in repositoryNames:
+    tempDic = {"name": name}
+    list_repositories.append(tempDic)
+repositoryDB.insert_many(list_repositories)
 
 repositoryCount = len(repositoryNames)
 x = 0
@@ -40,15 +46,10 @@ for repositoryName in repositoryNames:
     sleep(RATE)
     for language in languages:
         languageDictionary[language] = {"bytes": 0, "repositories": 0} if language not in languageDictionary else \
-        languageDictionary[language]
+            languageDictionary[language]
         languageDictionary[language]["bytes"] += languages[language]
         languageDictionary[language]["repositories"] += 1
-        print(str(x / repositoryCount) + " % of the way there for languages")
-
-list_repositories = []
-for name in repositoryNames:
-    tempDic = {"name": name}
-    list_repositories.append(tempDic)
+    print(str(round(x * 100 / repositoryCount, 2)) + " % of the way there for languages")
 
 list_languages = []
 for language in languageDictionary:
@@ -56,5 +57,4 @@ for language in languageDictionary:
                "#repositories": languageDictionary.get(language).get("repositories")}
     list_languages.append(tempDic)
 
-repositoryDB.insert_many(list_repositories)
 languageDB.insert_many(list_languages)

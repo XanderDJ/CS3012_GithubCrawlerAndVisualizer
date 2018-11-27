@@ -12,7 +12,7 @@ clientId = credentials.readline().rstrip()
 credentials.close()
 git = Github(user, Pass)
 users_checked = set()
-users_notChecked = set(["xanderdj"])
+users_notChecked = set([user])
 start = time()
 while len(users_notChecked) != 0 and time() - start < 60*15 and len(users_notChecked) + len(users_checked) < 10000:
     print("you won't see this")
