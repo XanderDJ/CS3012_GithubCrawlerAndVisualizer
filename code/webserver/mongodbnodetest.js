@@ -7,7 +7,10 @@ MongoClient.connect(url, function(err, db) {
   var dbo = db.db("GithubDB");
   dbo.collection("languages").find({}).toArray(function(err, result) {
     if (err) throw err;
-    console.log(result);
+    var i;
+    for (i = 0; i < result.length; i++) {
+      console.log(result[i]["#repositories"])
+    }
     db.close();
   });
 });
