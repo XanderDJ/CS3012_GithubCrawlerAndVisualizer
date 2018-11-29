@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329432ad-7486-4fa7-a245-dad564941153" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/webserver/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/crawler/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/crawler/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/webserver/getbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/getbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/webserver/getpie.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/getpie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/webserver/piechart.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/piechart.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$getLanguagesOfRepository.coverage" NAME="getLanguagesOfRepository Coverage Results" MODIFIED="1543283366356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
     <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$getRepositoriesFromUsers.coverage" NAME="getRepositoriesFromUsers Coverage Results" MODIFIED="1543252615078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
-    <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$temp.coverage" NAME="temp Coverage Results" MODIFIED="1542720682777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
+    <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$temp.coverage" NAME="temp Coverage Results" MODIFIED="1543510117172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
     <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$githubCrawler.coverage" NAME="githubCrawler Coverage Results" MODIFIED="1542725396134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
     <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$mongodbtest.coverage" NAME="mongodbtest Coverage Results" MODIFIED="1543241422006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
     <SUITE FILE_PATH="coverage/CS3012_GithubCrawlerAndVisualizer$GetUsersGithub.coverage" NAME="GetUsersGithub Coverage Results" MODIFIED="1543173361481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/crawler" />
@@ -23,12 +26,12 @@
     <session id="279036636">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,25 +54,25 @@
         <counts>
           <entry key="credentials" value="43" />
           <entry key="dummy" value="36" />
-          <entry key="py" value="5528" />
+          <entry key="py" value="5754" />
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="487" />
-          <entry key="Python" value="5528" />
+          <entry key="Python" value="5754" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <caret line="12" column="24" lean-forward="true" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -110,11 +113,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/crawler/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/credentials" />
         <option value="$PROJECT_DIR$/code/crawler/credentials" />
-        <option value="$PROJECT_DIR$/code/crawler/temp.py" />
         <option value="$PROJECT_DIR$/code/crawler/githubCrawler.py" />
         <option value="$PROJECT_DIR$/code/crawler/mongodbtest.py" />
         <option value="$PROJECT_DIR$/code/crawler/getRepositoriesFromUsers.py" />
@@ -149,6 +154,7 @@
         <option value="$PROJECT_DIR$/code/crawler/GetUsersGithub.py" />
         <option value="$PROJECT_DIR$/code/webserver/index.js" />
         <option value="$PROJECT_DIR$/code/crawler/getJSON.py" />
+        <option value="$PROJECT_DIR$/code/crawler/temp.py" />
       </list>
     </option>
   </component>
@@ -169,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,10 +210,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -231,29 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getJSON">
-    <configuration name="GetUsersGithub" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS3012_GithubCrawlerAndVisualizer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/crawler/GetUsersGithub.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.temp">
     <configuration name="getJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS3012_GithubCrawlerAndVisualizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,20 +327,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS3012_GithubCrawlerAndVisualizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/crawler/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.mongodbtest" />
       <item itemvalue="Python.getRepositoriesFromUsers" />
-      <item itemvalue="Python.GetUsersGithub" />
       <item itemvalue="Python.getLanguagesOfRepository" />
       <item itemvalue="Python.getJSON" />
+      <item itemvalue="Python.temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.getJSON" />
         <item itemvalue="Python.getLanguagesOfRepository" />
         <item itemvalue="Python.getRepositoriesFromUsers" />
         <item itemvalue="Python.mongodbtest" />
-        <item itemvalue="Python.GetUsersGithub" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +418,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -503,16 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/crawler/getRepositoriesFromUsers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -540,15 +537,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/crawler/temp.py">
+    <entry file="file://$PROJECT_DIR$/code/crawler/credentials">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/crawler/credentials">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/code/crawler/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -5,6 +5,8 @@ return +(Math.round(num + "e+2")  + "e-2");
 var width = 1160,
 height = 500,
 radius = Math.min(width, height) / 2;
+var legendRectSize = 18;
+var legendSpacing = 4;
 
 var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 
@@ -53,6 +55,30 @@ function render(data){
     .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
     .attr("dy", ".35em")
     .text(function(d) {return d.data["#repositories"]; });
+
+    var legend = svg.selectAll('.legend')
+          .data(color.domain())
+          .enter()
+          .append('g')
+          .attr('class', 'legend')
+          .attr('transform', function(d, i) {
+            var height = legendRectSize + legendSpacing;
+            var offset =  height * color.domain().length / 2;
+            var horz = -2 * legendRectSize * -10 ;
+            var vert = i * height - offset;
+            return 'translate(' + horz + ',' + vert + ')';
+          });
+
+        legend.append('rect')
+          .attr('width', legendRectSize)
+          .attr('height', legendRectSize)
+          .style('fill', color)
+          .style('stroke', color);
+
+        legend.append('text')
+          .attr('x', legendRectSize + legendSpacing)
+          .attr('y', legendRectSize - legendSpacing)
+          .text(function(d,i) { console.log(i);return data[i].name });
 
 }
 d3.json("http://localhost:8080\\data\\piechart.json", render);

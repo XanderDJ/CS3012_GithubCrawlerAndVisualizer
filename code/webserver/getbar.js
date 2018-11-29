@@ -44,7 +44,7 @@ d3.json("languages.json", function(error, data) {
               .style("left", d3.event.pageX - 50 + "px")
               .style("top", d3.event.pageY - 70 + "px")
               .style("display", "inline-block")
-              .html((d.area) + "<br>" + "£" + (d.value));
+              .html((d.area) + "<br>" + (Math.round(d.value/1024)) + "MB");
         })
     		.on("mouseout", function(d){ tooltip.style("display", "none");});
 });
