@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>don't care</title>
+  </head>
+  <body>
+    <h1>First bar chart</h1>
+
+    <script type="text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+
+    <script type="text/javascript">
+    function render(data){
+      console.log(data);
+    }
+    d3.json("http://localhost:8080\\data\\languages.json", render);
+ </script>
+  </body>
+</html>
