@@ -54,7 +54,7 @@ function render(data){
     g.append("text")
     .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
     .attr("dy", ".35em")
-    .text(function(d) {return d.data["#repositories"]; });
+    .text(function(d) {return d.data["#repositories"] + "%"; });
 
     var legend = svg.selectAll('.legend')
           .data(color.domain())
@@ -78,7 +78,7 @@ function render(data){
         legend.append('text')
           .attr('x', legendRectSize + legendSpacing)
           .attr('y', legendRectSize - legendSpacing)
-          .text(function(d,i) { console.log(i);return data[i].name });
+          .text(function(d,i) {return data[i].name });
 
 }
 d3.json("http://localhost:8080\\data\\piechart.json", render);
