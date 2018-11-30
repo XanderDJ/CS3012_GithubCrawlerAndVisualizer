@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="329432ad-7486-4fa7-a245-dad564941153" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/crawler/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/crawler/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/webserver/getbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/getbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/webserver/getpie.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/getpie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/webserver/piechart.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/webserver/piechart.html" afterDir="false" />
+    <list default="true" id="329432ad-7486-4fa7-a245-dad564941153" name="Default Changelist" comment="final commit.&#10;added readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +23,12 @@
     <session id="279036636">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,6 +36,7 @@
           <entry key="credentials" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="2" />
+          <entry key="md" value="1" />
           <entry key="py" value="12" />
         </counts>
       </usages-collector>
@@ -46,6 +44,7 @@
         <counts>
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="12" />
         </counts>
@@ -54,13 +53,15 @@
         <counts>
           <entry key="credentials" value="43" />
           <entry key="dummy" value="36" />
+          <entry key="md" value="1031" />
           <entry key="py" value="5754" />
-          <entry key="txt" value="408" />
+          <entry key="txt" value="435" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="487" />
+          <entry key="Markdown" value="1031" />
+          <entry key="PLAIN_TEXT" value="514" />
           <entry key="Python" value="5754" />
         </counts>
       </usages-collector>
@@ -71,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="true" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="12" column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -113,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/crawler/temp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -125,9 +126,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/crawler/credentials">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -155,6 +163,7 @@
         <option value="$PROJECT_DIR$/code/webserver/index.js" />
         <option value="$PROJECT_DIR$/code/crawler/getJSON.py" />
         <option value="$PROJECT_DIR$/code/crawler/temp.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -412,13 +421,20 @@
       <option name="project" value="LOCAL" />
       <updated>1543214052223</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final commit.&#10;added readme">
+      <created>1543595558732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543595558732</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -454,7 +470,8 @@
     <MESSAGE value="can't read documents from online mongodb, unknown error." />
     <MESSAGE value="fixed bug, also it is impossible to connect to my online db without whitelisting IP" />
     <MESSAGE value="finished data gathering code, now to make the website part" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished data gathering code, now to make the website part" />
+    <MESSAGE value="final commit.&#10;added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit.&#10;added readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/github/AuthenticatedUser.py">
@@ -493,13 +510,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/webserver/data/data.json" />
-    <entry file="file://$PROJECT_DIR$/code/webserver/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/code/webserver/index.js" />
     <entry file="file://$PROJECT_DIR$/code/webserver/data/piechart.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -507,6 +518,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -540,16 +561,6 @@
     <entry file="file://$PROJECT_DIR$/code/crawler/credentials">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/crawler/GetUsersGithub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/crawler/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -557,6 +568,16 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
