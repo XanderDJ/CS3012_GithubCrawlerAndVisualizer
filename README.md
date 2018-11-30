@@ -4,10 +4,10 @@
 ## Setup
 
 make sure that the newest versions of python and node.js are installed.
-<br />pip install pymongo
-<br />pip install pygithub
-<br />npm install express
-<br /> make credentials.txt with github username on the first line and password on the second
+><br />pip install pymongo
+><br />pip install pygithub
+><br />npm install express
+><br /> make credentials.txt with github username on the first line and password on the second
 
 ## github crawler
 
